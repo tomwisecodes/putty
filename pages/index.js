@@ -19,16 +19,18 @@ const PageWrap = styled(Container)`
   position: relative;
   z-index: 1;
   h1 {
-    font-size: 50px;
-    line-height: 50px;
+    font-size: 40px;
+    line-height: 40px;
     margin-bottom: 12px;
     max-width: 570px;
     font-weight: 400;
+    font-family: "Rigton-SemiBold", sans;
   }
   h2 {
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 24px;
     margin-bottom: 6px;
+    max-width: 600px;
     @media (max-width: 769px) {
       margin-bottom: 48px;
       font-size: 20px;
@@ -40,11 +42,11 @@ const ContactWrap = styled.div`
   display: flex;
   flex-direction: column;
   padding-bottom: 24px;
-  max-width: 460px;
+  max-width: 300px;
   p,
   a {
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 24px;
     margin-bottom: 6px;
   }
 `;
@@ -79,7 +81,6 @@ const HomePage = () => {
               Systems, Javascript Framework Development, Wordpress Development
             </h2>
           </div>
-
           <ContactWrap>
             <p>Get in touch for more information or to hear about our work:</p>
             <a href="mailto:hello@putty.studio">hello@putty.studio</a>
