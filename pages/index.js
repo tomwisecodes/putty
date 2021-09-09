@@ -49,6 +49,9 @@ const ContactWrap = styled.div`
     line-height: 24px;
     margin-bottom: 6px;
   }
+  a:hover {
+    text-decoration: underline;
+  }
 `;
 const HomePage = () => {
   const [showdef, setShowDef] = useState(false);
@@ -76,10 +79,6 @@ const HomePage = () => {
         <PageWrap>
           <div>
             <h1>Putty studio is the best design studio in the world</h1>
-            <h2>
-              Experts in: UX Design & Research, UI Design, Product Design
-              Systems, Javascript Framework Development, Wordpress Development
-            </h2>
           </div>
           <ContactWrap>
             <p>Get in touch for more information or to hear about our work:</p>
