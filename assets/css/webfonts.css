@@ -1,3 +1,78 @@
+@font-face {
+  font-family: "Rigton-BookItalic";
+  src: url("../fonts/webFonts/RigtonBookItalic/font.woff2") format("woff2"),
+    url("../fonts/webFonts/RigtonBookItalic/font.woff") format("woff");
+}
+@font-face {
+  font-family: "RigtonVariable";
+  src: url("../fonts/webFonts/RigtonVariable/font.woff2") format("woff2"),
+    url("../fonts/webFonts/RigtonVariable/font.woff") format("woff");
+}
+@font-face {
+  font-family: "Rigton-Book";
+  src: url("../fonts/webFonts/RigtonBook/font.woff2") format("woff2"),
+    url("../fonts/webFonts/RigtonBook/font.woff") format("woff");
+}
+@font-face {
+  font-family: "Rigton-LightItalic";
+  src: url("../fonts/webFonts/RigtonLightItalic/font.woff2") format("woff2"),
+    url("../fonts/webFonts/RigtonLightItalic/font.woff") format("woff");
+}
+@font-face {
+  font-family: "Rigton-Light";
+  src: url("../fonts/webFonts/RigtonLight/font.woff2") format("woff2"),
+    url("../fonts/webFonts/RigtonLight/font.woff") format("woff");
+}
+@font-face {
+  font-family: "Rigton-BoldItalic";
+  src: url("../fonts/webFonts/RigtonBoldItalic/font.woff2") format("woff2"),
+    url("../fonts/webFonts/RigtonBoldItalic/font.woff") format("woff");
+}
+@font-face {
+  font-family: "Rigton-SemiBoldItalic";
+  src: url("../fonts/webFonts/RigtonSemiBoldItalic/font.woff2") format("woff2"),
+    url("../fonts/webFonts/RigtonSemiBoldItalic/font.woff") format("woff");
+}
+@font-face {
+  font-family: "Rigton-Bold";
+  src: url("../fonts/webFonts/RigtonBold/font.woff2") format("woff2"),
+    url("../fonts/webFonts/RigtonBold/font.woff") format("woff");
+}
+@font-face {
+  font-family: "Rigton-SemiBold";
+  src: url("../fonts/webFonts/RigtonSemiBold/font.woff2") format("woff2"),
+    url("../fonts/webFonts/RigtonSemiBold/font.woff") format("woff");
+}
+@font-face {
+  font-family: "Rigton-MediumItalic";
+  src: url("../fonts/webFonts/RigtonMediumItalic/font.woff2") format("woff2"),
+    url("../fonts/webFonts/RigtonMediumItalic/font.woff") format("woff");
+}
+@font-face {
+  font-family: "Rigton-RegularItalic";
+  src: url("../fonts/webFonts/RigtonRegularItalic/font.woff2") format("woff2"),
+    url("../fonts/webFonts/RigtonRegularItalic/font.woff") format("woff");
+}
+@font-face {
+  font-family: "Rigton-Medium";
+  src: url("../fonts/webFonts/RigtonMedium/font.woff2") format("woff2"),
+    url("../fonts/webFonts/RigtonMedium/font.woff") format("woff");
+}
+@font-face {
+  font-family: "Rigton-Regular";
+  src: url("../fonts/webFonts/RigtonRegular/font.woff2") format("woff2"),
+    url("../fonts/webFonts/RigtonRegular/font.woff") format("woff");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Rigton-Bold", sans;
+}
+
 body,
 html,
 * {
