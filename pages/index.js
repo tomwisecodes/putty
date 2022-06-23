@@ -78,12 +78,11 @@ const HomePage = () => {
       <DefaultLayout>
         <PageWrap>
           <div>
-            <h1>Putty studio is the best design studio in the world</h1>
+            <h1>Putty is the best design studio in the world</h1>
           </div>
           <ContactWrap>
             <p>Get in touch for more information or to hear about our work:</p>
             <a href="mailto:hello@putty.studio">hello@putty.studio</a>
-            <a href="tel:07917621285">+44 79176 21285</a>
           </ContactWrap>
         </PageWrap>
       </DefaultLayout>
