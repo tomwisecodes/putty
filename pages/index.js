@@ -78,7 +78,7 @@ const HomePage = () => {
       <DefaultLayout>
         <PageWrap>
           <div>
-            <h1>Putty is the best design studio in the world</h1>
+            <h1>Putty </h1>
           </div>
           <ContactWrap>
             <p>Get in touch for more information or to hear about our work:</p>
